@@ -1,0 +1,39 @@
+.header {
+    padding: 20px;
+    background-color: navy; /* Modern blue */
+    border-bottom: 1px solid #005bb5;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: white;
+  }
+  
+  .header-nav {
+    margin-top: 10px;
+  }
+  
+  .nav-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #ffd700; /* Gold hover effect */
+  }
+  
+  @media (max-width: 768px) {
+    .header h1 {
+      font-size: 1.5em;
+    }
+  
+    .nav-link {
+      margin: 0 10px;
+      font-size: 0.9em;
+    }
+  }
+  

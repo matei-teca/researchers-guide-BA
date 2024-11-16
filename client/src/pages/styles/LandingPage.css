@@ -1,0 +1,65 @@
+.landing-page {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .landing-page h2 {
+    font-size: 2.2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .landing-page p {
+    font-size: 1.2em;
+    color: #555;
+    text-align: center;
+  }
+  
+  .featured-resources h3 {
+    margin-top: 40px;
+    font-size: 1.5em;
+    color: #0073e6;
+    text-align: left;
+  }
+  
+  .featured-resources ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .featured-resources li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+  }
+  
+  .featured-resources a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+  }
+  
+  .featured-resources a:hover {
+    color: #005bb5;
+  }
+  
+  @media (max-width: 768px) {
+    .landing-page h2 {
+      font-size: 1.8em;
+    }
+  
+    .landing-page p {
+      font-size: 1em;
+    }
+  
+    .featured-resources h3 {
+      font-size: 1.2em;
+    }
+  
+    .featured-resources li {
+      font-size: 1em;
+    }
+  }
+  

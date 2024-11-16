@@ -1,0 +1,28 @@
+.footer {
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray */
+    border-top: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+    color: #333; /* Darker text */
+  }
+  
+  .footer-link {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer-link:hover {
+    color: #005bb5;
+  }
+  
+  @media (max-width: 768px) {
+    .footer p {
+      font-size: 0.9em;
+    }
+  }
+  
